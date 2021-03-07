@@ -1,0 +1,27 @@
+{
+  "name": "api_mern",
+  "version": "1.0.0",
+  "description": "Node Js",
+  "main": "index.js",
+  "scripts": {
+    "client": "npm start --prefix client",
+    "serve": "nodemon index.js",
+    "dev": "concurrently \"npm run index\" \"npm run client\""
+  },
+  "author": "Luann",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.19",
+    "mysql2": "^2.2.5",
+    "path": "^0.12.7",
+    "sequelize": "^6.5.0",
+    "sequelize-cli": "^6.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
